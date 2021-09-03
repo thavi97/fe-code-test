@@ -1,0 +1,31 @@
+header{
+  margin: 0; padding: 2em 5em 4em; color: #efefef;
+  overflow:hidden;
+  position: relative;
+  height: 705px;
+}
+
+header::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+  transform: skewY(-10deg);
+  background: linear-gradient(to right, #4E54C8, #8F94FB);
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:white;
+}
+
+.heading-text{
+  margin-top:8%;
+}
