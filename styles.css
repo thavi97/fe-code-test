@@ -1,12 +1,19 @@
+@font-face {
+  font-family: SF-Mono;
+  src: url(fonts/SF-Mono-Regular.otf);
+}
+
 header{
   margin: 0; padding: 2em 5em 4em; color: #efefef;
   overflow:hidden;
   position: relative;
   height: 705px;
+  font-family: SF-Mono;
 }
 
 header::after{
   content:"";
+  font-family: SF-Mono;
   position:absolute;
   top:0;
   left:0;
