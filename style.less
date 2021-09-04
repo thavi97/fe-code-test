@@ -11,7 +11,7 @@ header{
   margin: 0; padding: 2em 5em 4em; color: #efefef;
   overflow:hidden;
   position: relative;
-  height: 705px;
+  height: 600px;
   z-index: 0;
 }
 
@@ -30,24 +30,37 @@ header{
   &::before{
     .header-style();
     background: linear-gradient(to right, #4E54C8, #8F94FB);
-    transform: skewY(-10deg);
+    transform: skewY(-15deg);
   }
   &::after{
     .header-style();
     background-image: url("assets/graph-viz.png");
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
     opacity: 0.1;
+    background-size: cover;
   }
   .product-fragments{
-    @media only screen and (max-width: 1280px) {
+    @media only screen and (max-width: 1200px) {
       display:none;
     }
     position: relative;
     width: 620.87px;
-    left: 83%;
-    bottom: 290px;
+    left: 65%;
+    bottom: 405px;
     transform: rotate(-15deg);
     z-index: 0;
+  }
+}
+
+nav{
+  div{
+    margin-left: 50px;
+    li{
+      margin-right: 20px;
+    }
+  }
+  button{
+    color: #FFFFFF;
   }
 }
 
@@ -57,6 +70,13 @@ header{
 
 .navbar-light .navbar-nav .nav-link {
   color:white;
+}
+
+.navbar-light{
+  .navbar-toggler{
+    border-color: white;
+    color: white;
+  }
 }
 
 .heading-text{
@@ -69,13 +89,13 @@ header{
     color: #FFFFFF;
     margin-bottom: 20px;
   }
-  .subtext{
+  .subheading{
     font-size: 15px;
     line-height: 152%;
     color: #FFFFFF;
     opacity: 0.8;
     max-width: 584px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   button{
     width: 197px;
@@ -88,9 +108,72 @@ header{
 }
 
 .main-page{
-  p{
+  margin-bottom: 100px;
+  .businesses{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    img{
+      margin-bottom: 30px;
+    }
+  }
+  .business-headline{
     font-size: 17px;
-line-height: 20px;
-text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0.5;
+  }
+  .solutions{
+    margin-left: 20px;
+  }
+  h2{
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .text-box{
+    @media only screen and (max-width: 1000px) {
+      margin: 20px 0 20px 45px;
+    }
+    margin: 20px 0 20px 0;
+    text-align: left;
+    width: 264px;
+    height: 264px;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 30px 0 0 30px;
+    #detect{
+      color: #2749FF;
+    }
+    #accept{
+      color: #31C9AD;
+    }
+    #connect{
+      color: #EC4E6E;
+    }
+    #protect{
+      color: #7056F8;
+    }
+    .title{
+      font-size: 26px;
+      line-height: 31px;
+      font-weight: bold;
+    }
+    .text{
+      width: 210px;
+      height: 100px;
+      font-size: 14px;
+      line-height: 152%;
+      margin-bottom: 40px;
+    }
+    a{
+      font-size: 14px;
+      line-height: 152%;
+      color: #000000;
+      text-decoration: none;
+    }
   }
 }

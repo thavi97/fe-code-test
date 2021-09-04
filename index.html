@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Ravelin</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
 <body>
 
   <header>
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/logo.svg" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Insights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Company</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--<nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#"><img src="assets/logo.svg" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,10 +56,10 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav>-->
     <div class="heading-text">
       <h1 class="heading">Make smarter decisions</h1>
-      <p class="subtext">Ravelin provides technology and support to help you prevent evolving fraud threats and accept payments with confidence.</p>
+      <p class="subheading">Ravelin provides technology and support to help you prevent evolving fraud threats and accept payments with confidence.</p>
       <button>View solutions</button>
     </div>
     <img class="product-fragments" src="assets/product-fragments.png" />
@@ -45,7 +68,58 @@
   </header>
   <div class="container">
     <div class="main-page">
-      <p>The world’s leading online businesses trust Ravelin to manage risk</p>
+      <p class="business-headline">The world’s leading online businesses trust Ravelin to manage risk</p>
+      <div class="row align-items-center businesses">
+        <div class="col">
+          <img src="assets/just-eat.svg" />
+        </div>
+        <div class="col">
+          <img src="assets/bohoo.svg" />
+        </div>
+        <div class="col">
+          <img src="assets/glovo.svg" />
+        </div>
+        <div class="col">
+          <img src="assets/booking.com.svg" />
+        </div>
+        <div class="col">
+          <img src="assets/deliveroo.svg" />
+        </div>
+        <div class="col">
+          <img src="assets/freenow.svg" />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <h2>Learn more about our solutions</h2>
+        <div class="col-lg-3">
+          <div class="text-box">
+            <p id="detect" class="title">Detect</p>
+            <p class="text">Understand the risk score for every customer from the moment they land on your website.</p>
+            <a class="learnmore" href="">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-box">
+            <p id="accept" class="title">Accept</p>
+            <p class="text">Manage global regulation and route every payment to the path with the best chance of acceptance.</p>
+            <a class="learnmore" href="">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-box">
+            <p id="connect" class="title">Connect</p>
+            <p class="text">Link analysis to power your investigations, makes machine learning models more effective.</p>
+            <a class="learnmore" href="">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-box">
+            <p id="protect" class="title">Protect</p>
+            <p class="text">Use machine learning models trained on your customer data to quickly detect unusual activity and flag when an account has been hacked.</p>
+            <a class="learnmore" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
