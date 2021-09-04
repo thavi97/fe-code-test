@@ -9,6 +9,21 @@ header{
   position: relative;
   height: 705px;
   font-family: SF-Mono;
+  z-index: 0;
+}
+
+header::before{
+  content:"";
+  font-family: SF-Mono;
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+  transform: skewY(-10deg);
+  background: linear-gradient(to right, #4E54C8, #8F94FB);
+  transform-origin: bottom left;
+  z-index: -1;
 }
 
 header::after{
@@ -20,7 +35,8 @@ header::after{
   height: 100%;
   width:100%;
   transform: skewY(-10deg);
-  background: linear-gradient(to right, #4E54C8, #8F94FB);
+  background-image: url("assets/graph-viz.png");
+  opacity: 0.2;
   transform-origin: bottom left;
   z-index: -1;
 }
@@ -35,4 +51,9 @@ header::after{
 
 .heading-text{
   margin-top:8%;
+}
+
+.bob{
+  height: 1000px;
+  z-index: 1;
 }

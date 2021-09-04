@@ -1,0 +1,26 @@
+{
+  "name": "fe-code-test",
+  "version": "1.0.0",
+  "description": "![mock](https://github.com/unravelin/fe-code-test/blob/master/mock.png?raw=true)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thavi97/fe-code-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thavi97/fe-code-test/issues"
+  },
+  "homepage": "https://github.com/thavi97/fe-code-test#readme"
+}
