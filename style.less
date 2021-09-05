@@ -1,10 +1,47 @@
 @font-face {
-  font-family: SF-Mono;
-  src: url(fonts/SF-Mono-Regular.otf);
+font-family: 'SF Mono Regular';
+font-style: normal;
+font-weight: normal;
+src: local('SF Mono Regular'), url('fonts/SFMonoRegular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'SF Mono Light';
+font-style: normal;
+font-weight: normal;
+src: local('SF Mono Light'), url('fonts/SFMonoLight.woff') format('woff');
+}
+
+@font-face {
+font-family: 'SF Mono Medium';
+font-style: normal;
+font-weight: normal;
+src: local('SF Mono Medium'), url('fonts/SFMonoMedium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'SF Mono Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('SF Mono Semibold'), url('fonts/SFMonoSemibold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'SF Mono Bold';
+font-style: normal;
+font-weight: normal;
+src: local('SF Mono Bold'), url('fonts/SFMonoBold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'SF Mono Heavy';
+font-style: normal;
+font-weight: normal;
+src: local('SF Mono Heavy'), url('fonts/SFMonoHeavy.woff') format('woff');
 }
 
 body{
-  font-family: SF-Mono;
+  font-family: 'SF Mono Regular';
 }
 
 header{
@@ -55,6 +92,7 @@ nav{
     margin-left: 60px;
     li{
       margin-right: 20px;
+      font-family: 'SF Mono Medium';
     }
   }
   button{
@@ -84,6 +122,7 @@ nav{
   .heading{
     font-size: 45px;
     font-weight: bold;
+    font-family: 'SF Mono Medium';
     line-height: 54px;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -91,6 +130,7 @@ nav{
   .subheading{
     font-size: 15px;
     line-height: 152%;
+    font-family: 'SF Mono Light';
     color: #FFFFFF;
     opacity: 0.8;
     max-width: 584px;
@@ -99,6 +139,8 @@ nav{
   button{
     width: 197px;
     height: 50px;
+    font-family: 'SF Mono Regular';
+    font-weight: bold;
     background: #1F9BF4;
     border-radius: 5px;
     border: none;
@@ -118,6 +160,7 @@ nav{
   .business-headline{
     font-size: 17px;
     font-weight: bold;
+    font-family: 'SF Mono Medium';
     line-height: 20px;
     text-align: center;
     margin-bottom: 40px;
@@ -129,8 +172,8 @@ nav{
   h2{
     font-size: 27px;
     line-height: 32px;
+    font-family: 'SF Mono Bold';
     text-align: center;
-    font-weight: bold;
     margin-bottom: 30px;
   }
   .text-box{
@@ -158,18 +201,20 @@ nav{
     }
     .title{
       font-size: 26px;
+      font-family: 'SF Mono Bold';
       line-height: 31px;
-      font-weight: bold;
     }
     .text{
       width: 210px;
       height: 100px;
       font-size: 14px;
+      font-family: 'SF Mono Light';
       line-height: 152%;
       margin-bottom: 40px;
     }
     a{
       font-size: 14px;
+      font-family: 'SF Mono Medium';
       line-height: 152%;
       color: #000000;
       text-decoration: none;
